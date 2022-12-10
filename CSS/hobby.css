@@ -1,0 +1,256 @@
+/*Index page*/
+*
+{
+  margin: auto;
+  box-sizing: border-box;
+}
+body
+{
+  background-color: #f0f8ff;
+}
+.menu
+{
+  position: fixed;
+  margin: auto;
+  padding: 10px;
+  z-index: 6;
+  height: auto;
+  width: 100%;
+  background-color: #c0c0c0;
+  text-align: left;
+  border-style: outset;
+}
+.menu ul li
+{
+  font-family: monospace;
+  font-weight: lighter;
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+  text-transform: uppercase;
+}
+.menu ul li a
+{
+  text-decoration: none;
+  color: #007FFF;
+  font-size: 20px;
+}
+.menu ul li a:hover
+{
+color: #FF4500;
+}
+blockquote
+{
+  margin: 1%;
+  padding: 10px;
+  font-size: 22px;
+  border-top: 1px solid #FFBF00;
+  border-bottom: 1px solid #0088dd;
+}
+.bck
+{
+padding-top: 80px;
+padding-left: 25px;
+font-family: monospace;
+font-style: normal;
+color: #007FFF;
+font-size: 55px;
+padding-bottom: 20px;
+}
+img
+{
+  margin: 1%;
+  padding: 5px 5px 5px 13px;
+  width : 95%;
+  height: auto;
+}
+.line
+{
+  background-color: #89CFF0;
+  margin: 1%;
+  margin-bottom: 5%;
+  padding: 10px;
+  width: auto;
+}
+
+
+
+/*about page*/
+.ali
+{
+  display: flex;
+  padding-top: 90px;
+  margin-bottom: 20%;
+  border-top: 100px solid #89CFF0;
+}
+
+.ali h3
+{
+
+  text-align: center;
+  width: 33%;
+  float: left;
+  margin-left:  9%;
+  margin-top: 1%;
+  font-size: 190px;
+  font-family: monospace;
+  font-weight: lighter;
+  text-transform: uppercase;
+  color: #007FFF;
+}
+.ali img
+{
+    height: 30%;
+    width: 30%;
+    float: right;
+    margin-right: 10%;
+    margin-top: 1%;
+}
+.aboutp
+{
+  text-align: center;
+  font-size: 30px;
+  color: #1c39bb;
+  width: 90%;
+  margin-bottom: 10%;
+  border: groove;
+  border-width: thick;
+  border-color: #cb4154;
+  background-color: #f5f5dc;
+  padding: 25px 25px 25px 25px;
+  height: auto;
+}
+.aboutp::first-letter
+{
+  font-size: 50px;
+}
+
+
+/*My journey page*/
+
+.journey
+{
+  padding-top: 90px;
+  border-top: 100px solid #89CFF0;
+}
+.journey h3
+{
+  font-size: 150px;
+  font-family: monospace;
+  color: #007FFF;
+  text-align: center;
+  margin-bottom: 4%;
+  border: groove;
+  background-color: #F5F5DC;
+  border-color: #cb4154;
+  border-radius: 25px;
+  margin-left: 3%;
+  margin-right: 3%;
+  padding: 10px 10px 15px 10px;
+}
+.p1
+{
+  float: left;
+  margin-top: 5%;
+  margin-left: 4%;
+  width : 60%;
+  font-size: 30px;
+  color: #1c39bb;
+  text-align: center;
+  border: groove;
+  padding: 10px 10px 10px 10px;
+  border-radius: 15%;
+}
+.camera img
+{
+  margin-right: 2%;
+  float: right;
+  width: 30%;
+  height: auto;
+  border-radius: 40%;
+}
+.d
+{
+margin-top: 45%;
+margin-bottom: 40%;
+border-top: 15px solid #FFBF00;
+border-width: medium;
+border-radius: 50%;
+}
+.p2
+{
+  float: right;
+  margin-right: 2%;
+  margin-top: 10%;
+  width : 60%;
+  font-size: 30px;
+  color: #1c39bb;
+  text-align: center;
+}
+.album img
+{
+  margin-left: 4%;
+  width: 30%;
+  height: auto;
+  border-radius: 40%;
+  margin-top: 1%;
+}
+
+.p3
+{
+  width : 90%;
+  font-size: 30px;
+  color: #1c39bb;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+
+
+/*My gallery page*/
+.Gallery
+{
+  border-top: 100px solid #89CFF0;
+  padding-top: 70px;
+}
+
+.photos
+{
+  width: 50%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0;
+  margin-bottom: 2%;
+  padding-bottom: 10px;
+
+}
+.comment
+{
+  text-align: center;
+  padding: 20px 10px 20px 10px;
+  font-size: 25px;
+}
+footer
+{
+  background-color: grey;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 3%;
+  padding: 25px 0px 25px 0px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .responsiveweb{
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .responsiveweb{
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+}
